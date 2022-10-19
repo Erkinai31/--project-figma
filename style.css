@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(/Rectangle.png);
+    background-size: cover;
+}
+.container{
+    width: 1920px;
+}
+h1{
+  color: #fff;
+  padding-top:192px;
+  width:734px;
+  margin: 0 auto;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 95px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.subtitle{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;  
+    width:734px;
+    margin: 0 auto;
+    color:#fff;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.header-block{
+    background-color: #fff;
+    display: flex;
+    justify-content:space-evenly;
+    height:300px;
+    align-items: center;
+    width:1110px;
+    margin:0 auto;
+}
+.num{
+    color: #F7654A;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 107px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.year{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.text{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #999999;
+}
+h2{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color:#404149;
+    padding-top:200px ;
+}
+.main-block{
+    width:1110px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    gap: 30px;
+    padding-top:60px;
+    padding-bottom:180px;
+}
+.description{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+    padding-top:20px ;
+    width: 350px;
+}
+h3{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #404149;
+    padding-top: 15px;
+}
+.img2{
+    padding-top:45px ;
+}
+.ad{
+    width: 1920px;
+    height:181px;
+    background-color:#F7654A;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.ad div{
+    color:#fff;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+}
+.ad div span{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+}
+button{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    padding:13px 47px 15px 46px;
+}
+.question{
+    text-align: center;
+    padding-bottom:66px;
+}
+.icon{
+    background-color:#F7F7F7;
+    width:350px;
+    padding:59px 86px;
+}
+.grid1{
+    width:1110px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    gap:30px;
+}
+.contact div{
+    display: flex;
+    justify-content: space-between; 
+    padding:60px 405px;
+}
+.data p{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #999999;
+    padding-top:36px; 
+    padding-bottom:25px;
+}
+.data{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    width:255px;
+}
+.data span{
+    color: #F7654A;
+}
+footer{
+    background-color:#404149;
+    width: 1920px; 
+}
+.footer-text{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height:82px; 
+    width: 1110px;
+    margin: 0 auto;
+    color:white;
+}
+footer div{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
