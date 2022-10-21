@@ -128,7 +128,7 @@ h3{
     align-items:center;
     justify-content: space-evenly;
 }
-.ad div{
+.ad__result{
     color:#fff;
     font-family: 'Oswald';
     font-style: normal;
@@ -137,7 +137,7 @@ h3{
     line-height: 36px;
     letter-spacing: 0.02em;
 }
-.ad div span{
+.ad__result span{
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 700;
@@ -154,11 +154,14 @@ button{
     letter-spacing: 0.05em;
     padding:13px 47px 15px 46px;
 }
+button:hover{
+    background-color:aqua;
+}
 .question{
     text-align: center;
     padding-bottom:66px;
 }
-.icon{
+.grid__icon{
     background-color:#F7F7F7;
     width:350px;
     padding:59px 86px;
@@ -170,12 +173,12 @@ button{
     grid-template-columns: repeat(3,350px);
     gap:30px;
 }
-.contact div{
+.contact__block{
     display: flex;
     justify-content: space-between; 
     padding:60px 405px;
 }
-.data p{
+.contact__data p{
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 500;
@@ -186,7 +189,7 @@ button{
     padding-top:36px; 
     padding-bottom:25px;
 }
-.data{
+.contact__data{
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 500;
@@ -195,7 +198,7 @@ button{
     text-align: center;
     width:255px;
 }
-.data span{
+.contact__data span{
     color: #F7654A;
 }
 footer{
@@ -217,4 +220,73 @@ footer div{
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
+}
+@media  screen and (max-width:1200px) {
+    .header-block{
+        display: grid;
+        grid-template-columns: repeat(2,250px);
+        width:600px;
+        margin:0 auto;
+    }
+    .main-block{
+        display: block;
+    }
+    .main-block__img{
+        width: 550px;
+        height: 450px;
+    }
+    .block__container{
+        width:550px;
+        margin: 0 auto;
+    }
+    .description{
+        width: 550px;
+        padding-bottom: 20px;
+    }
+    .ad{
+        display: block;
+    }
+    .ad__result{
+        width: 550px;
+        margin:0 auto;
+        padding-bottom: 20px;
+    }
+    .ad__result__button{
+        width: 200px;
+        margin:0 auto;
+    }
+    .grid1{
+        width:600px;
+        margin:0 auto;
+        display: block;
+    }
+    .grid__icon{
+        width:550px; 
+        margin-bottom: 30px;  
+    }
+    .grid__img{
+        width:150px;
+        padding-bottom:20px;
+    }
+    .contact__block{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 600px;
+        margin:0 auto;
+        padding:0;
+        margin-top: 20px;
+    }
+    .contact__data p{
+        padding:10px;
+    }
+    .contact__data{
+        padding: 15px;
+    }
+    .footer-text{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        width: 380px;
+        margin: 0 auto;
+    }
 }
