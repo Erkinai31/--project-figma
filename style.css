@@ -1,24 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-header{
-    background-image: url(Rectangle.png);
-    background-size: cover;
+header {
+  background-image: url(Rectangle.png);
+  background-size: cover;
 }
-.container{
-    width: 1920px;
+body {
+  width: 1920px;
 }
-h1{
-  color: #fff;
-  padding-top:192px;
-  width:734px;
+.container {
+  width: 1110px;
   margin: 0 auto;
-  font-family: 'Oswald';
+}
+h1 {
+  color: #fff;
+  padding-top: 192px;
+  width: 734px;
+  margin: 0 auto;
+  font-family: "Oswald";
   font-style: normal;
   font-weight: 500;
   font-size: 64px;
@@ -27,266 +31,260 @@ h1{
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
-.subtitle{
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    text-align: center;
-    text-transform: uppercase;  
-    width:734px;
+.subtitle {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 734px;
+  margin: 0 auto;
+  color: #fff;
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+.header-block {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  height: 300px;
+  align-items: center;
+}
+.num {
+  color: #f7654a;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 107px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.year {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.text {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #999999;
+}
+h2 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #404149;
+  padding-top: 200px;
+}
+.image-block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding-top: 60px;
+  padding-bottom: 180px;
+}
+.description {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #999999;
+  padding-top: 20px;
+  width: 350px;
+}
+h3 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #404149;
+  padding-top: 15px;
+}
+.img2 {
+  padding-top: 45px;
+}
+.ad {
+  width: 100%;
+  height: 181px;
+  background-color: #f7654a;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ad__result {
+  color: #fff;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+}
+.ad__result span {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: 0.02em;
+}
+button {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  padding: 13px 47px 15px 46px;
+}
+button:hover {
+  background-color: aqua;
+}
+.question {
+  text-align: center;
+  padding-bottom: 66px;
+}
+.grid__icon {
+  background-color: #f7f7f7;
+  width: 350px;
+  padding: 59px 86px;
+}
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  gap: 30px;
+}
+.contact__block {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 405px;
+}
+.contact__data p {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #999999;
+  padding-top: 36px;
+  padding-bottom: 25px;
+}
+.contact__data {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  width: 255px;
+}
+.contact__data span {
+  color: #f7654a;
+}
+footer {
+  background-color: #404149;
+  width: 1920px;
+}
+.footer-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 82px;
+  width: 1110px;
+  margin: 0 auto;
+  color: white;
+}
+footer div {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+@media screen and (max-width: 1200px) {
+  .header-block {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    width: 600px;
     margin: 0 auto;
-    color:#fff;
-    padding-top: 35px;
+  }
+  .image-block {
+    display: block;
+  }
+  .main-block__img {
+    width: 550px;
+    height: 450px;
+  }
+  .block__container {
+    width: 550px;
+    margin: 0 auto;
+  }
+  .description {
+    width: 550px;
     padding-bottom: 20px;
-}
-.header-block{
-    background-color: #fff;
+  }
+  .ad {
+    display: block;
+  }
+  .ad__result {
+    width: 550px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  .ad__result__button {
+    width: 200px;
+    margin: 0 auto;
+  }
+  .grid1 {
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+  }
+  .grid__icon {
+    width: 550px;
+    margin-bottom: 35px;
+  }
+  .grid__img {
+    width: 150px;
+    padding-bottom: 20px;
+  }
+  .contact__block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 20px;
+  }
+  .contact__data p {
+    padding: 10px;
+  }
+  .contact__data {
+    padding: 15px;
+  }
+  .footer-text {
     display: flex;
-    justify-content:space-evenly;
-    height:300px;
     align-items: center;
-    width:1110px;
-    margin:0 auto;
-}
-.num{
-    color: #F7654A;
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 72px;
-    line-height: 107px;
-    text-align: center;
-    text-transform: uppercase;
-}
-.year{
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 53px;
-    text-align: center;
-    text-transform: uppercase;
-}
-.text{
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    text-align: center;
-    color: #999999;
-}
-h2{
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 53px;
-    text-align: center;
-    text-transform: uppercase;
-    color:#404149;
-    padding-top:200px ;
-}
-.main-block{
-    width:1110px;
+    justify-content: center;
+    width: 380px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns:repeat(3,1fr) ;
-    gap: 30px;
-    padding-top:60px;
-    padding-bottom:180px;
-}
-.description{
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    color: #999999;
-    padding-top:20px ;
-    width: 350px;
-}
-h3{
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    color: #404149;
-    padding-top: 15px;
-}
-.img2{
-    padding-top:45px ;
-}
-.ad{
-    width: 1920px;
-    height:181px;
-    background-color:#F7654A;
-    display: flex;
-    align-items:center;
-    justify-content: space-evenly;
-}
-.ad__result{
-    color:#fff;
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-    letter-spacing: 0.02em;
-}
-.ad__result span{
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 71px;
-    letter-spacing: 0.02em;
-}
-button{
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: 0.05em;
-    padding:13px 47px 15px 46px;
-}
-button:hover{
-    background-color:aqua;
-}
-.question{
-    text-align: center;
-    padding-bottom:66px;
-}
-.grid__icon{
-    background-color:#F7F7F7;
-    width:350px;
-    padding:59px 86px;
-}
-.grid1{
-    width:1110px;
-    margin:0 auto;
-    display: grid;
-    grid-template-columns: repeat(3,350px);
-    gap:30px;
-}
-.contact__block{
-    display: flex;
-    justify-content: space-between; 
-    padding:60px 405px;
-}
-.contact__data p{
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    text-align: center;
-    color: #999999;
-    padding-top:36px; 
-    padding-bottom:25px;
-}
-.contact__data{
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    text-align: center;
-    width:255px;
-}
-.contact__data span{
-    color: #F7654A;
-}
-footer{
-    background-color:#404149;
-    width: 1920px; 
-}
-.footer-text{
-    display: flex;
-    align-items:center;
-    justify-content: space-between;
-    height:82px; 
-    width: 1110px;
-    margin: 0 auto;
-    color:white;
-}
-footer div{
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-}
-@media  screen and (max-width:1200px) {
-    .header-block{
-        display: grid;
-        grid-template-columns: repeat(2,250px);
-        width:600px;
-        margin:0 auto;
-    }
-    .main-block{
-        display: block;
-    }
-    .main-block__img{
-        width: 550px;
-        height: 450px;
-    }
-    .block__container{
-        width:550px;
-        margin: 0 auto;
-    }
-    .description{
-        width: 550px;
-        padding-bottom: 20px;
-    }
-    .ad{
-        display: block;
-    }
-    .ad__result{
-        width: 550px;
-        margin:0 auto;
-        padding-bottom: 20px;
-    }
-    .ad__result__button{
-        width: 200px;
-        margin:0 auto;
-    }
-    .grid1{
-        width:600px;
-        margin:0 auto;
-        display: block;
-    }
-    .grid__icon{
-        width:550px; 
-        margin-bottom: 35px;  
-    }
-    .grid__img{
-        width:150px;
-        padding-bottom:20px;
-    }
-    .contact__block{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        width: 600px;
-        margin:0 auto;
-        padding:0;
-        margin-top: 20px;
-    }
-    .contact__data p{
-        padding:10px;
-    }
-    .contact__data{
-        padding: 15px;
-    }
-    .footer-text{
-        display: flex;
-        align-items:center;
-        justify-content: center;
-        width: 380px;
-        margin: 0 auto;
-    }
+  }
 }
